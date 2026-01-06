@@ -1,0 +1,31 @@
+/* Login Page Specific Styles */
+
+.Login-container {
+    display: flex;
+    min-height: 100vh;
+}
+
+.Login-decorative {
+    background-color: var(--surface);
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+}
+
+.Login-form-side {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+/* Glass effect for login cards */
+.Login-card-glass {
+    background: rgba(255, 255, 255, 0.03);
+    backdrop-filter: blur(10px);
+    border: 1px border-white/10;
+}

@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 
 const AIChat = () => {
     const [messages, setMessages] = useState([
-        { role: 'ai', content: "Namaste! I'm your AI onboarding assistant powered by Gemini. How can I help you today?" }
+        { role: 'ai', content: "Hello! I'm your AI onboarding assistant powered by Gemini. How can I help you today?" }
     ]);
     const [input, setInput] = useState('');
     const [loading, setLoading] = useState(false);
@@ -84,7 +84,7 @@ const AIChat = () => {
                         )}
 
                         <div className={`max-w-[80%] p-4 rounded-3xl ${msg.role === 'user'
-                            ? 'bg-primary text-white rounded-tr-lg'
+                            ? 'bg-primary text-black rounded-tr-lg'
                             : 'bg-surface text-white rounded-tl-lg'
                             }`}>
                             {msg.content}

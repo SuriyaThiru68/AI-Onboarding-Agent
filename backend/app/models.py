@@ -34,8 +34,8 @@ class UserModel(BaseModel):
         allow_population_by_field_name = True
         schema_extra = {
             "example": {
-                "username": "raj_distributor",
-                "email": "raj@example.com",
+                "username": "xyz_distributor",
+                "email": "xyz@example.com",
                 "role": "distributor",
                 "region": "Mumbai"
             }

@@ -7,12 +7,13 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "#2a2a2a",
-        surface: "#3a3a3a",
-        primary: "#ff6b35",
-        accent: "#ffc857",
-        card: "#404040",
-        muted: "#6b6b6b",
+        background: "#000000",
+        surface: "#111111",
+        primary: "#b1ff33", // The lime green from the image
+        secondary: "#b488ff", // Purple accent
+        accent: "#ff4d4d", // Red/orange accent
+        card: "#161616",
+        muted: "#888888",
       },
       fontFamily: {
         display: ['Poppins', 'sans-serif'],
@@ -21,12 +22,14 @@ export default {
       borderRadius: {
         'xl': '1rem',
         '2xl': '1.5rem',
-        '3xl': '2rem',
+        '3xl': '2.5rem',
+        'full': '9999px',
       },
       boxShadow: {
-        'card': '0 4px 20px rgba(0,0,0,0.3)',
-        'glow': '0 0 20px rgba(255,107,53,0.3)',
+        'card': '0 10px 30px rgba(0,0,0,0.5)',
+        'glow': '0 0 20px rgba(177,255,51,0.2)',
       }
+
     },
   },
   plugins: [],

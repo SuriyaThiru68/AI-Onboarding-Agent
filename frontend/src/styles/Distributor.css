@@ -1,0 +1,37 @@
+/* Distributor Dashboard Specific Styles */
+
+.DistributorDashboard {
+    display: flex;
+    height: 100vh;
+    background-color: var(--background);
+}
+
+.DistributorDashboard .sidebar {
+    width: 18rem;
+    border-right: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(30, 30, 30, 0.5);
+}
+
+.DistributorDashboard .main-content {
+    flex: 1;
+    overflow-y: auto;
+}
+
+.DistributorDashboard .tasks-grid {
+    display: grid;
+    gap: 1rem;
+}
+
+.DistributorDashboard .training-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.DistributorDashboard .xp-badge {
+    color: var(--primary);
+    font-size: 0.875rem;
+}

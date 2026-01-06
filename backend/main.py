@@ -4,6 +4,7 @@ import os
 from pathlib import Path
 
 env_path = Path(__file__).parent / '.env'
+
 load_dotenv(dotenv_path=env_path)
 print(f"DEBUG: Loading env from {env_path}")
 print(f"DEBUG: GEMINI_API_KEY is {'set' if os.getenv('GEMINI_API_KEY') else 'NOT SET'}")
